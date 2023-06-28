@@ -12,29 +12,29 @@
            STOP RUN.
        100-VALIDA-CATEGORIA.
             IF WS-CATEGORY = "ONES"
-               MOVE 3    TO WS-RESULT
+               MOVE 3 TO WS-RESULT
             IF WS-CATEGORY = "TWOS"
-               MOVE 4    TO WS-RESULT
+               MOVE 4 TO WS-RESULT
             IF WS-CATEGORY = "THREES"
-               MOVE 15   TO WS-RESULT
+               MOVE 15 TO WS-RESULT
             IF WS-CATEGORY = "FOURS"
-               MOVE 0    TO WS-RESULT
+               MOVE 0 TO WS-RESULT
             IF WS-CATEGORY = "FIVES"
-               MOVE 15    TO WS-RESULT
+               MOVE 15 TO WS-RESULT
             IF WS-CATEGORY = "SIXES"
-               MOVE 6     TO WS-RESULT
+               MOVE 6 TO WS-RESULT
             IF WS-CATEGORY = "FULL HOUSE"
-               MOVE 19    TO WS-RESULT
+               MOVE 19 TO WS-RESULT
             IF WS-CATEGORY = "FOUR OF A KIND"
-               MOVE 16    TO WS-RESULT
+               MOVE 16 TO WS-RESULT
             IF WS-CATEGORY = "LITTLE STRAIGHT"
-               MOVE 30    TO WS-RESULT
+               MOVE 30 TO WS-RESULT
             IF WS-CATEGORY = "BIG STRAIGHT"
-               MOVE 30    TO WS-RESULT
+               MOVE 30 TO WS-RESULT
              IF WS-CATEGORY = "CHOICE"
-               MOVE 18    TO WS-RESULT
+               MOVE 18 TO WS-RESULT
            IF WS-CATEGORY = "YACHT"
-               MOVE 50    TO WS-RESULT
+               MOVE 50 TO WS-RESULT
            ELSE
                MOVE 0 TO WS-RESULT.
       
